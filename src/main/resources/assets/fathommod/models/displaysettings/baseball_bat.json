@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:builtin/entity",
+  "display": {
+    "fixed": {
+      "scale": [
+        0.75,
+        0.75,
+        1
+      ],
+      "translation": [
+        0,
+        -3.25,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        1
+      ],
+      "translation": [
+        0,
+        -2.75,
+        0
+      ]
+    }
+  },
+  "textures": {
+    "0": "fathommod:item/baseball_bat",
+    "particle": "fathommod:item/baseball_bat"
+  }
+}

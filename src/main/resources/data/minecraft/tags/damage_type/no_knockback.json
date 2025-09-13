@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "fathommod:fatal_poison_one",
+    "fathommod:fatal_poison_two",
+    "fathommod:bleed_effect"
+  ]
+}

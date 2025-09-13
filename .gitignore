@@ -1,0 +1,14 @@
+# Project exclude paths
+/.gradle/
+/gradle/
+/build/
+/build/classes/java/main/
+/run/
+/.idea/
+/runs/
+/.tmp.drivedownload/
+/.tmp.driveupload/
+/unusedstuff/
+/backup.zip
+/backups
+/generated/

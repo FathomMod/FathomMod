@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "fathommod:block/bigroserbush",
+    "particle": "fathommod:block/bigroserbush"
+  },
+  "render_type": "cutout"
+}

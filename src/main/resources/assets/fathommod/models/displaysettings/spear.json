@@ -1,0 +1,108 @@
+{
+  "credit": "Made with Blockbench",
+  "texture_size": [
+    64,
+    64
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -13.5,
+        1.5
+      ],
+      "scale": [
+        1,
+        1.25,
+        1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -13.5,
+        1.5
+      ],
+      "scale": [
+        1,
+        1.25,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -65,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -6,
+        25
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -65,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -6,
+        25
+      ]
+    },
+    "ground": {
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "gui": {
+      "rotation": [
+        90,
+        53.5,
+        -56
+      ],
+      "translation": [
+        -4,
+        -5.75,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        -45,
+        0,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        -7,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "textures": {
+    "particle": "item/spear_texture"
+  }
+}

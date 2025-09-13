@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "22": "tntarrow"
+      },
+      "name": "default"
+    }
+  }
+}

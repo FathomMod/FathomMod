@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "fathommod:block/blood_grass_bottom",
+    "side": "fathommod:block/blood_grass_side",
+    "top": "fathommod:block/blood_grass_top"
+  },
+  "render_type": "solid"
+}

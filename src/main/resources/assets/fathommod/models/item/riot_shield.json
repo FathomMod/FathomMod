@@ -1,0 +1,103 @@
+{
+  "parent": "fathommod:custom/riot_shield",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "translation": [
+        -3.5,
+        -0.5,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "translation": [
+        -2.25,
+        -0.5,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        -2.25,
+        0.75
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3.5,
+        0
+      ]
+    },
+    "gui": {
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "translation": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "translation": [
+        1,
+        -3.75,
+        0
+      ]
+    }
+  },
+  "textures": {
+    "0": "fathommod:item/riot_shield",
+    "particle": "fathommod:item/riot_shield"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "parent": "fathommod:custom/arrow_sharpener",
+  "display": {
+    "firstperson_lefthand": {
+      "scale": [
+        1,
+        1.2,
+        1
+      ],
+      "translation": [
+        -0.25,
+        2.75,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "scale": [
+        1,
+        1.2,
+        1
+      ],
+      "translation": [
+        0,
+        2.75,
+        0
+      ]
+    },
+    "ground": {
+      "scale": [
+        1,
+        0.85,
+        1
+      ],
+      "translation": [
+        0,
+        -1.75,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        35,
+        -25,
+        0
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    },
+    "head": {
+      "scale": [
+        1,
+        0.75,
+        1
+      ],
+      "translation": [
+        0,
+        8,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "translation": [
+        0,
+        1.25,
+        1.25
+      ]
+    },
+    "thirdperson_righthand": {
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "translation": [
+        0,
+        1.25,
+        1.25
+      ]
+    }
+  },
+  "textures": {
+    "0": "fathommod:item/arrow_sharpener",
+    "particle": "fathommod:item/arrow_sharpener"
+  }
+}

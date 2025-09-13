@@ -1,0 +1,55 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.fathommod.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinAttributes",
+    "MixinBowItem",
+    "MixinComponent",
+    "MixinDifficultyScaling",
+    "MixinDiscard",
+    "MixinElderGuardian",
+    "MixinElytra",
+    "MixinEnchantmentRegistration",
+    "MixinExplodeEffect",
+    "MixinFoodData",
+    "MixinGodMode",
+    "MixinGuardian",
+    "MixinInventoryMenu",
+    "MixinItemStack",
+    "MixinKillCmd",
+    "MixinLivingEntity",
+    "MixinLivingEntity$MixinPlayer",
+    "MixinMobEffectInstance",
+    "MixinOptionsScreen",
+    "MixinPlayer",
+    "MixinPoison",
+    "MixinPush",
+    "MixinRemove",
+    "OtherGodModeMixin",
+    "projectiles.MixinAbstractArrow",
+    "projectiles.MixinThrowableProjectile",
+    "sweetspots.AxeMixin",
+    "sweetspots.MaceMixin",
+    "sweetspots.SwordMixin",
+    "sweetspots.TridentMixin"
+  ],
+  "client": [
+    "MixinAbstractClientPlayer",
+    "MixinAbstractContainerScreen",
+    "MixinAttributeInstance",
+    "MixinEntityRenderDispatcher",
+    "MixinInventory",
+    "MixinItem",
+    "MixinKeyMapping",
+    "MixinMinecraft",
+    "MixinOnlineOptionsScreen",
+    "MixinParticleEngine"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

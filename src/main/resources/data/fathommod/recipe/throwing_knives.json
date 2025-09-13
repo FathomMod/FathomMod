@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "minecraft:carrot"
+    },
+    "b": {
+      "tag": "fathommod:ted_spawner_accepted_items"
+    }
+  },
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "result": {
+    "count": 16,
+    "id": "fathommod:throwing_knives"
+  }
+}

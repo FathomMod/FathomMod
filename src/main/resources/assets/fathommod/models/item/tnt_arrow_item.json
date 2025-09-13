@@ -1,0 +1,78 @@
+{
+  "parent": "fathommod:custom/tnt_arrow_item",
+  "display": {
+    "firstperson_lefthand": {
+      "translation": [
+        0,
+        -8,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        0,
+        -8,
+        0
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        -9,
+        0
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        -3.75,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        -45
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "translation": [
+        -5.5,
+        -5.5,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -22.5,
+        0.75,
+        -90
+      ],
+      "translation": [
+        -14,
+        1,
+        19.25
+      ]
+    },
+    "thirdperson_righthand": {
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "translation": [
+        0,
+        -8,
+        0
+      ]
+    }
+  },
+  "textures": {
+    "0": "fathommod:item/tnt_arrow_item",
+    "particle": "fathommod:item/tnt_arrow_item"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pepsiman": {
+    "subtitle": "subtitles.pepsiman",
+    "sounds": [
+      {
+        "name": "fathommod:pepsiman-pepsiman-pepsiman-pepsiman-remix",
+        "stream": false
+      }
+    ]
+  },
+  "smack": {
+    "subtitle": "subtitles.smack",
+    "sounds": [
+      {
+        "name": "fathommod:ted_smack",
+        "stream": false
+      }
+    ]
+  },
+  "bonk": {
+    "subtitle": "subtitles.fathommod.bonk",
+    "sounds": [
+      {
+        "name": "fathommod:bonk",
+        "stream": false
+      }
+    ]
+  },
+  "ted_boss_music": {
+    "sounds": [
+      {
+        "name": "fathommod:its_me_ted"
+      }
+    ]
+  }
+}

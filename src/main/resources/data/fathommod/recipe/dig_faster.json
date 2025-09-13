@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "minecraft:calcite"
+    },
+    "b": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "c": {
+      "item": "minecraft:stone"
+    },
+    "d": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "e": {
+      "item": "minecraft:moss_block"
+    },
+    "f": {
+      "item": "minecraft:sculk_catalyst"
+    }
+  },
+  "pattern": [
+    "ada",
+    "ebd",
+    "cfa"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fathommod:dig_faster"
+  }
+}

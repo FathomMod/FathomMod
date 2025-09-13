@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:builtin/entity",
+  "display": {
+    "firstperson_lefthand": {
+      "translation": [
+        -0.25,
+        3,
+        0.25
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        0,
+        3,
+        0.25
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        -0.5,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        23,
+        -30,
+        -12
+      ],
+      "scale": [
+        1.4,
+        1.4,
+        1.4
+      ]
+    },
+    "head": {
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        7.25,
+        -7
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -2,
+        3
+      ]
+    },
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -2,
+        3
+      ]
+    }
+  },
+  "textures": {
+    "0": "fathommod:item/ring_of_power",
+    "particle": "fathommod:item/ring_of_power"
+  }
+}

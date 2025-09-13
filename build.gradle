@@ -1,0 +1,76 @@
+plugins {
+    id 'java-library'
+    id 'eclipse'
+    id 'net.neoforged.gradle.userdev' version '7.0.152'
+}
+
+version = '1.0'
+group = 'net.fathommod'
+base.archivesName = "fathom_mod-neoforge-${minecraft_version}"
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+def at_file = rootProject.file('src/main/resources/META-INF/accesstransformer.cfg')
+if (at_file.exists()) minecraft.accessTransformers.file at_file
+
+runs {
+    configureEach {
+        systemProperty 'forge.logging.markers', 'REGISTRIES'
+        systemProperty 'forge.logging.console.level', 'debug'
+        modSource project.sourceSets.main
+    }
+
+    client {}
+    server {}
+
+    data {
+        programArguments.addAll '--mod', 'fathommod',
+                '--output', file('src/generated/resources').getAbsolutePath(),
+                '--existing', file('src/main/resources/').getAbsolutePath()
+    }
+}
+
+configurations.all {
+    resolutionStrategy {
+        force 'org.ow2.asm:asm-analysis:9.7'
+        force 'org.ow2.asm:asm-util:9.7'
+        force 'org.ow2.asm:asm:9.7'
+        force 'org.ow2.asm:asm-tree:9.7'
+        force 'org.ow2.asm:asm-commons:9.7'
+    }
+}
+
+
+
+repositories {
+    maven {
+        name = 'GeckoLib'
+        url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroup("software.bernie.geckolib")
+        }
+    }
+
+    // jei
+    maven {
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
+    // jei fallback
+    maven {
+        name = "ModMaven"
+        url = "https://modmaven.dev"
+    }
+}
+
+dependencies {
+    implementation "net.neoforged:neoforge:${neo_version}"
+    implementation "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
+
+    compileOnly("mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}")
+    runtimeOnly("mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}")
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}

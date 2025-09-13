@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:builtin/entity",
+  "textures": {
+    "0": "fathommod:item/ted_spawner",
+    "particle": "fathommod:item/ted_spawner"
+  }
+}

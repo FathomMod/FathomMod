@@ -1,0 +1,95 @@
+{
+  "parent": "fathommod:custom/frog_gear",
+  "display": {
+    "firstperson_lefthand": {
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "translation": [
+        -1,
+        1,
+        -1.25
+      ]
+    },
+    "firstperson_righthand": {
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "translation": [
+        -1.5,
+        1.5,
+        -1
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -90,
+        0,
+        0
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        -1.75,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        144,
+        0
+      ],
+      "translation": [
+        -0.25,
+        0,
+        0
+      ]
+    },
+    "head": {
+      "rotation": [
+        -92,
+        0,
+        -180
+      ],
+      "translation": [
+        -0.25,
+        -1.25,
+        -7.5
+      ]
+    },
+    "thirdperson_lefthand": {
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "translation": [
+        0,
+        0.6,
+        2
+      ]
+    },
+    "thirdperson_righthand": {
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "translation": [
+        0,
+        0.6,
+        2
+      ]
+    }
+  },
+  "textures": {
+    "0": "fathommod:item/frog_gear",
+    "particle": "fathommod:item/frog_gear"
+  }
+}

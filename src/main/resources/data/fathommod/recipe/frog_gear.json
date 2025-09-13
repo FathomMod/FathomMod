@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "minecraft:mangrove_propagule"
+    },
+    "b": {
+      "item": "fathommod:frog_leg"
+    },
+    "c": {
+      "item": "fathommod:frog_soul"
+    }
+  },
+  "pattern": [
+    "a a",
+    "bcb",
+    "a a"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fathommod:frog_gear"
+  }
+}

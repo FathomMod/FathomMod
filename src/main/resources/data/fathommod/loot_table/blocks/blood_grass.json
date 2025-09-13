@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "fathommod:blocks/blood_grass",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fathommod:blood_grass"
+        }
+      ]
+    }
+  ]
+}

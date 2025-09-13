@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "fathommod:fabric"
+    },
+    "b": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    " aa",
+    " aa",
+    "bb "
+  ],
+  "result": {
+    "count": 1,
+    "id": "fathommod:balloon"
+  }
+}

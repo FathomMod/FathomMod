@@ -1,0 +1,94 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/ringringring",
+		"particle": "block/ringringring"
+	},
+	"elements": [
+		{
+			"from": [5, 6, 7],
+			"to": [6, 10, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [8, 8, 9, 12], "texture": "#0"},
+				"east": {"uv": [6, 8, 8, 12], "texture": "#0"},
+				"south": {"uv": [11, 8, 12, 12], "texture": "#0"},
+				"west": {"uv": [9, 8, 11, 12], "texture": "#0"},
+				"up": {"uv": [9, 8, 8, 6], "texture": "#0"},
+				"down": {"uv": [10, 6, 9, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 10, 7],
+			"to": [11, 11, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [2, 5, 8, 6], "texture": "#0"},
+				"east": {"uv": [0, 5, 2, 6], "texture": "#0"},
+				"south": {"uv": [10, 5, 16, 6], "texture": "#0"},
+				"west": {"uv": [8, 5, 10, 6], "texture": "#0"},
+				"up": {"uv": [8, 5, 2, 3], "texture": "#0"},
+				"down": {"uv": [14, 3, 8, 5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 5, 7],
+			"to": [11, 6, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 8, 3], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 3], "texture": "#0"},
+				"south": {"uv": [10, 2, 16, 3], "texture": "#0"},
+				"west": {"uv": [8, 2, 10, 3], "texture": "#0"},
+				"up": {"uv": [8, 2, 2, 0], "texture": "#0"},
+				"down": {"uv": [14, 0, 8, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [10, 6, 7],
+			"to": [11, 10, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [2, 8, 3, 12], "texture": "#0"},
+				"east": {"uv": [0, 8, 2, 12], "texture": "#0"},
+				"south": {"uv": [5, 8, 6, 12], "texture": "#0"},
+				"west": {"uv": [3, 8, 5, 12], "texture": "#0"},
+				"up": {"uv": [3, 8, 2, 6], "texture": "#0"},
+				"down": {"uv": [4, 6, 3, 8], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -2, 3]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -2, 3]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 3, 0.25]
+		},
+		"firstperson_lefthand": {
+			"translation": [-0.25, 3, 0.25]
+		},
+		"ground": {
+			"translation": [0, -0.5, 0]
+		},
+		"gui": {
+			"rotation": [23, -30, -12],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"head": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 7.25, -7]
+		}
+	},
+	"groups": [
+		{
+			"name": "Ring of strength",
+			"origin": [12, 12, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

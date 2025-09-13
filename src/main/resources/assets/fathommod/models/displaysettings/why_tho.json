@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:builtin/entity",
+  "textures": {
+    "0": "fathommod:item/why_tho",
+    "particle": "fathommod:item/why_tho"
+  }
+}

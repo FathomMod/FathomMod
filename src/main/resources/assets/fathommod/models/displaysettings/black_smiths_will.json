@@ -1,0 +1,80 @@
+{
+  "parent": "minecraft:builtin/entity",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        -1.5,
+        2.75,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        -1.25,
+        2.75,
+        0
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        0,
+        0.75
+      ]
+    },
+    "ground": {
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "translation": [
+        0,
+        0.5,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        11,
+        -11,
+        0
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        12.25,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    }
+  },
+  "textures": {
+    "0": "fathommod:item/black_smiths_will",
+    "particle": "fathommod:item/black_smiths_will"
+  }
+}

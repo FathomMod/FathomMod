@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "metal_bat_texture"
+      },
+      "name": "default"
+    }
+  }
+}

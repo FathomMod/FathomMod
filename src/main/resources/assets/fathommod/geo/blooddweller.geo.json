@@ -1,0 +1,138 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "DwellerBody",
+					"pivot": [2, 16, -0.5]
+				},
+				{
+					"name": "LegLeft",
+					"parent": "DwellerBody",
+					"pivot": [1, 16, 1],
+					"cubes": [
+						{"origin": [1, 8, 0], "size": [2, 8, 2], "uv": [24, 30]}
+					]
+				},
+				{
+					"name": "LegLeftBottom",
+					"parent": "LegLeft",
+					"pivot": [1, 8, 0],
+					"cubes": [
+						{"origin": [1, 0, 0], "size": [2, 8, 2], "uv": [16, 30]}
+					]
+				},
+				{
+					"name": "LegRight",
+					"parent": "DwellerBody",
+					"pivot": [-2, 16, 0],
+					"cubes": [
+						{"origin": [-3, 8, 0], "size": [2, 8, 2], "uv": [0, 27]}
+					]
+				},
+				{
+					"name": "LegRightBottom",
+					"parent": "LegRight",
+					"pivot": [-1, 8, 0],
+					"cubes": [
+						{"origin": [-3, 0, 0], "size": [2, 8, 2], "uv": [8, 27]}
+					]
+				},
+				{
+					"name": "BodyBottom",
+					"parent": "DwellerBody",
+					"pivot": [0, 16, 2],
+					"cubes": [
+						{"origin": [-3, 16, -0.5], "size": [6, 5, 3], "uv": [18, 18]}
+					]
+				},
+				{
+					"name": "BodyTop",
+					"parent": "BodyBottom",
+					"pivot": [2, 22, 2.5],
+					"cubes": [
+						{"origin": [-3, 21, -0.5], "size": [6, 6, 3], "uv": [0, 18]}
+					]
+				},
+				{
+					"name": "Neck",
+					"parent": "BodyTop",
+					"pivot": [1.5, 27, 2],
+					"cubes": [
+						{"origin": [-1, 27, 0], "size": [2, 1, 2], "uv": [22, 8]}
+					]
+				},
+				{
+					"name": "BloodMonsterHead",
+					"parent": "Neck",
+					"pivot": [2, 28, 0]
+				},
+				{
+					"name": "HeadBottom",
+					"parent": "BloodMonsterHead",
+					"pivot": [2, 30, 2.5],
+					"cubes": [
+						{"origin": [-2, 30, -2.2], "size": [1, 1, 0], "uv": [2, 1]},
+						{"origin": [-0.5, 30, -2.2], "size": [1, 1, 0], "uv": [2, 2]},
+						{"origin": [0.75, 30, -2.2], "size": [1, 1, 0], "uv": [2, 0]},
+						{"origin": [2, 30, -2.2], "size": [1, 1, 0], "pivot": [2.5, 31, -2.2], "rotation": [0, -25, 0], "uv": [0, 2]},
+						{"origin": [-3, 28, -2.5], "size": [6, 2, 5], "uv": [0, 11]}
+					]
+				},
+				{
+					"name": "HeadTop",
+					"parent": "BloodMonsterHead",
+					"pivot": [0, 30, 2.5],
+					"cubes": [
+						{"origin": [-3, 30, -2.5], "size": [6, 6, 5], "uv": [0, 0]},
+						{"origin": [-2.75, 29, -2.2], "size": [1, 1, 0], "uv": [2, 3]},
+						{"origin": [0.5, 29, -2.2], "size": [1, 1, 0], "uv": [0, 3]},
+						{"origin": [-1, 29, -2.2], "size": [1, 1, 0], "uv": [0, 1]},
+						{"origin": [1.75, 29, -2.2], "size": [1, 1, 0], "pivot": [2.25, 30, -2.2], "rotation": [0, -25, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "ArmRight",
+					"parent": "BodyTop",
+					"pivot": [-3, 26.5, 2],
+					"cubes": [
+						{"origin": [-11, 24.5, 0], "size": [8, 2, 2], "uv": [17, 11]}
+					]
+				},
+				{
+					"name": "RightBottom",
+					"parent": "ArmRight",
+					"pivot": [-11, 26.5, 2],
+					"cubes": [
+						{"origin": [-19, 24.5, 0], "size": [8, 2, 2], "uv": [17, 0]}
+					]
+				},
+				{
+					"name": "ArmLeft",
+					"parent": "BodyTop",
+					"pivot": [3, 26.5, 2],
+					"cubes": [
+						{"origin": [3, 24.5, 0], "size": [8, 2, 2], "uv": [16, 26]}
+					]
+				},
+				{
+					"name": "LeftBottom",
+					"parent": "ArmLeft",
+					"pivot": [11, 26.5, 2],
+					"cubes": [
+						{"origin": [11, 24.5, 0], "size": [8, 2, 2], "uv": [22, 4]}
+					]
+				}
+			]
+		}
+	]
+}

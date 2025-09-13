@@ -1,0 +1,26 @@
+{
+  "parent": "fathommod:custom/throwing_knives",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ]
+    }
+  },
+  "textures": {
+    "0": "fathommod:item/throwing_knives",
+    "particle": "fathommod:item/throwing_knives"
+  }
+}

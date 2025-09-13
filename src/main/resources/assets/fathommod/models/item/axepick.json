@@ -1,0 +1,93 @@
+{
+  "parent": "fathommod:custom/axepick",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        -1.25,
+        5.75,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        -1.25,
+        5.75,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        180
+      ],
+      "translation": [
+        0,
+        -1.25,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        180
+      ],
+      "translation": [
+        0,
+        -1.5,
+        0
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        180
+      ],
+      "translation": [
+        0,
+        10,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        180,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        -7.75,
+        0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        180,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        -7.75,
+        0
+      ]
+    }
+  },
+  "textures": {
+    "0": "fathommod:item/axepick",
+    "particle": "fathommod:item/axepick"
+  }
+}

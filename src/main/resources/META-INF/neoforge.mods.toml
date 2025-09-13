@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="fathommod"
+version="1.0"
+displayName="Fathom Mod"
+credits="IveTouchedGrass - Lead Developer, LuboBGgaming12 - Developer"
+authors="IncredaSlimey"
+description="Fathom mod is an action adventure style mod heavily inspired by terraria's calamity mod, terraria itself and ultrakill, to an extent.\nDespite unpopular belief the mod has nothing to do with water."
+
+[[dependencies.fathommod]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.62,)"
+    reason="21.1.62 or later required because of geckolib"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fathommod]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fathommod]]
+    modId="geckolib"
+    type="required"
+    ordering="AFTER"
+    reason="Required for certain item and entity animations"
+    versionRange="[4.5.6,)"
+
+[[mixins]]
+config="fathommod.mixins.json"

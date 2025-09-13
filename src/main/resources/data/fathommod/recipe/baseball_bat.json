@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "a",
+    "a",
+    "c"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fathommod:baseball_bat"
+  }
+}

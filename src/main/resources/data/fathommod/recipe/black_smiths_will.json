@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "result": {
+    "count": 1,
+    "id": "fathommod:black_smiths_will"
+  }
+}
